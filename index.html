@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIT Trichy Director Daily Planner</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this path is correct for your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/S53SKGv/logo.png" alt="logo" border="0"></a> <!-- Ensure this path is correct for your logo -->
+            <div class="text-container">
+                <h1>National Institute of Technology Tiruchirappalli</h1>
+                <h2>Director Daily Schedule</h2>
+            </div>
+        </header>
+        <div class="content">
+            <!-- Calendar Section -->
+            <div class="calendar">
+                <div class="month">
+                    <button class="nav" id="prevMonth">&lt;</button>
+                    <span>January, 2024</span>
+                    <button class="nav" id="nextMonth">&gt;</button>
+                </div>
+                <div class="days">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>T</div>
+                    <div>W</div>
+                    <div>T</div>
+                    <div>F</div>
+                    <div>S</div>
+                </div>
+                <div class="dates" id="calendar-dates">
+                    <!-- Dates will be dynamically inserted here -->
+                </div>
+                <!-- Last Modified Text -->
+                <div id="last-modified" class="last-modified">
+                    <!-- Last modified date will be dynamically inserted here -->
+                </div>
+            </div>
+            <!-- Daily Schedule Section -->
+            <div class="schedule">
+               <!-- Daily Schedule Section -->
+
+                 <h3><span id="selected-date">today</span></h3>
+                  <ul id="daily-schedule">
+                   <!-- Events will be dynamically inserted here -->
+                    </ul>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script> <!-- Ensure this path is correct for your JavaScript file -->
+</body>
+</html>
